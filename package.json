@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start": "node dist/serve.js",
+    "dev": "nodemon src/server,ts"
+    
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",
